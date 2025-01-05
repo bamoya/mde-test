@@ -41,281 +41,303 @@ import org.eclipse.emf.ecore.util.InternalEList;
  *
  * @generated
  */
-public class GatewayImpl extends MinimalEObjectImpl.Container implements Gateway {
-	/**
-	 * The default value of the '{@link #getName() <em>Name</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getName()
-	 * @generated
-	 * @ordered
-	 */
-	protected static final String NAME_EDEFAULT = null;
+public class GatewayImpl extends MinimalEObjectImpl.Container implements Gateway
+{
+  /**
+   * The default value of the '{@link #getName() <em>Name</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getName()
+   * @generated
+   * @ordered
+   */
+  protected static final String NAME_EDEFAULT = null;
 
-	/**
-	 * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getName()
-	 * @generated
-	 * @ordered
-	 */
-	protected String name = NAME_EDEFAULT;
+  /**
+   * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getName()
+   * @generated
+   * @ordered
+   */
+  protected String name = NAME_EDEFAULT;
 
-	/**
-	 * The default value of the '{@link #getPort() <em>Port</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getPort()
-	 * @generated
-	 * @ordered
-	 */
-	protected static final int PORT_EDEFAULT = 0;
+  /**
+   * The default value of the '{@link #getPort() <em>Port</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getPort()
+   * @generated
+   * @ordered
+   */
+  protected static final int PORT_EDEFAULT = 0;
 
-	/**
-	 * The cached value of the '{@link #getPort() <em>Port</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getPort()
-	 * @generated
-	 * @ordered
-	 */
-	protected int port = PORT_EDEFAULT;
+  /**
+   * The cached value of the '{@link #getPort() <em>Port</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getPort()
+   * @generated
+   * @ordered
+   */
+  protected int port = PORT_EDEFAULT;
 
-	/**
-	 * The cached value of the '{@link #getRoutes() <em>Routes</em>}' containment reference list.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getRoutes()
-	 * @generated
-	 * @ordered
-	 */
-	protected EList<RouteConfig> routes;
+  /**
+   * The cached value of the '{@link #getRoutes() <em>Routes</em>}' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getRoutes()
+   * @generated
+   * @ordered
+   */
+  protected EList<RouteConfig> routes;
 
-	/**
-	 * The cached value of the '{@link #getCustomDeps() <em>Custom Deps</em>}' attribute list.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getCustomDeps()
-	 * @generated
-	 * @ordered
-	 */
-	protected EList<Dependency> customDeps;
+  /**
+   * The cached value of the '{@link #getCustomDeps() <em>Custom Deps</em>}' attribute list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getCustomDeps()
+   * @generated
+   * @ordered
+   */
+  protected EList<Dependency> customDeps;
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected GatewayImpl() {
-		super();
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  protected GatewayImpl()
+  {
+    super();
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return MicroserviceDSLPackage.Literals.GATEWAY;
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  protected EClass eStaticClass()
+  {
+    return MicroserviceDSLPackage.Literals.GATEWAY;
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public String getName() {
-		return name;
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public String getName()
+  {
+    return name;
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public void setName(String newName) {
-		String oldName = name;
-		name = newName;
-		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, MicroserviceDSLPackage.GATEWAY__NAME, oldName, name));
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public void setName(String newName)
+  {
+    String oldName = name;
+    name = newName;
+    if (eNotificationRequired())
+      eNotify(new ENotificationImpl(this, Notification.SET, MicroserviceDSLPackage.GATEWAY__NAME, oldName, name));
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public int getPort() {
-		return port;
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public int getPort()
+  {
+    return port;
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public void setPort(int newPort) {
-		int oldPort = port;
-		port = newPort;
-		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, MicroserviceDSLPackage.GATEWAY__PORT, oldPort, port));
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public void setPort(int newPort)
+  {
+    int oldPort = port;
+    port = newPort;
+    if (eNotificationRequired())
+      eNotify(new ENotificationImpl(this, Notification.SET, MicroserviceDSLPackage.GATEWAY__PORT, oldPort, port));
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public EList<RouteConfig> getRoutes() {
-		if (routes == null) {
-			routes = new EObjectContainmentEList<RouteConfig>(RouteConfig.class, this, MicroserviceDSLPackage.GATEWAY__ROUTES);
-		}
-		return routes;
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public EList<RouteConfig> getRoutes()
+  {
+    if (routes == null)
+    {
+      routes = new EObjectContainmentEList<RouteConfig>(RouteConfig.class, this, MicroserviceDSLPackage.GATEWAY__ROUTES);
+    }
+    return routes;
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public EList<Dependency> getCustomDeps() {
-		if (customDeps == null) {
-			customDeps = new EDataTypeEList<Dependency>(Dependency.class, this, MicroserviceDSLPackage.GATEWAY__CUSTOM_DEPS);
-		}
-		return customDeps;
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public EList<Dependency> getCustomDeps()
+  {
+    if (customDeps == null)
+    {
+      customDeps = new EDataTypeEList<Dependency>(Dependency.class, this, MicroserviceDSLPackage.GATEWAY__CUSTOM_DEPS);
+    }
+    return customDeps;
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
-		switch (featureID) {
-			case MicroserviceDSLPackage.GATEWAY__ROUTES:
-				return ((InternalEList<?>)getRoutes()).basicRemove(otherEnd, msgs);
-		}
-		return super.eInverseRemove(otherEnd, featureID, msgs);
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs)
+  {
+    switch (featureID)
+    {
+      case MicroserviceDSLPackage.GATEWAY__ROUTES:
+        return ((InternalEList<?>)getRoutes()).basicRemove(otherEnd, msgs);
+    }
+    return super.eInverseRemove(otherEnd, featureID, msgs);
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Object eGet(int featureID, boolean resolve, boolean coreType) {
-		switch (featureID) {
-			case MicroserviceDSLPackage.GATEWAY__NAME:
-				return getName();
-			case MicroserviceDSLPackage.GATEWAY__PORT:
-				return getPort();
-			case MicroserviceDSLPackage.GATEWAY__ROUTES:
-				return getRoutes();
-			case MicroserviceDSLPackage.GATEWAY__CUSTOM_DEPS:
-				return getCustomDeps();
-		}
-		return super.eGet(featureID, resolve, coreType);
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public Object eGet(int featureID, boolean resolve, boolean coreType)
+  {
+    switch (featureID)
+    {
+      case MicroserviceDSLPackage.GATEWAY__NAME:
+        return getName();
+      case MicroserviceDSLPackage.GATEWAY__PORT:
+        return getPort();
+      case MicroserviceDSLPackage.GATEWAY__ROUTES:
+        return getRoutes();
+      case MicroserviceDSLPackage.GATEWAY__CUSTOM_DEPS:
+        return getCustomDeps();
+    }
+    return super.eGet(featureID, resolve, coreType);
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	@Override
-	public void eSet(int featureID, Object newValue) {
-		switch (featureID) {
-			case MicroserviceDSLPackage.GATEWAY__NAME:
-				setName((String)newValue);
-				return;
-			case MicroserviceDSLPackage.GATEWAY__PORT:
-				setPort((Integer)newValue);
-				return;
-			case MicroserviceDSLPackage.GATEWAY__ROUTES:
-				getRoutes().clear();
-				getRoutes().addAll((Collection<? extends RouteConfig>)newValue);
-				return;
-			case MicroserviceDSLPackage.GATEWAY__CUSTOM_DEPS:
-				getCustomDeps().clear();
-				getCustomDeps().addAll((Collection<? extends Dependency>)newValue);
-				return;
-		}
-		super.eSet(featureID, newValue);
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @SuppressWarnings("unchecked")
+  @Override
+  public void eSet(int featureID, Object newValue)
+  {
+    switch (featureID)
+    {
+      case MicroserviceDSLPackage.GATEWAY__NAME:
+        setName((String)newValue);
+        return;
+      case MicroserviceDSLPackage.GATEWAY__PORT:
+        setPort((Integer)newValue);
+        return;
+      case MicroserviceDSLPackage.GATEWAY__ROUTES:
+        getRoutes().clear();
+        getRoutes().addAll((Collection<? extends RouteConfig>)newValue);
+        return;
+      case MicroserviceDSLPackage.GATEWAY__CUSTOM_DEPS:
+        getCustomDeps().clear();
+        getCustomDeps().addAll((Collection<? extends Dependency>)newValue);
+        return;
+    }
+    super.eSet(featureID, newValue);
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public void eUnset(int featureID) {
-		switch (featureID) {
-			case MicroserviceDSLPackage.GATEWAY__NAME:
-				setName(NAME_EDEFAULT);
-				return;
-			case MicroserviceDSLPackage.GATEWAY__PORT:
-				setPort(PORT_EDEFAULT);
-				return;
-			case MicroserviceDSLPackage.GATEWAY__ROUTES:
-				getRoutes().clear();
-				return;
-			case MicroserviceDSLPackage.GATEWAY__CUSTOM_DEPS:
-				getCustomDeps().clear();
-				return;
-		}
-		super.eUnset(featureID);
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public void eUnset(int featureID)
+  {
+    switch (featureID)
+    {
+      case MicroserviceDSLPackage.GATEWAY__NAME:
+        setName(NAME_EDEFAULT);
+        return;
+      case MicroserviceDSLPackage.GATEWAY__PORT:
+        setPort(PORT_EDEFAULT);
+        return;
+      case MicroserviceDSLPackage.GATEWAY__ROUTES:
+        getRoutes().clear();
+        return;
+      case MicroserviceDSLPackage.GATEWAY__CUSTOM_DEPS:
+        getCustomDeps().clear();
+        return;
+    }
+    super.eUnset(featureID);
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public boolean eIsSet(int featureID) {
-		switch (featureID) {
-			case MicroserviceDSLPackage.GATEWAY__NAME:
-				return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
-			case MicroserviceDSLPackage.GATEWAY__PORT:
-				return port != PORT_EDEFAULT;
-			case MicroserviceDSLPackage.GATEWAY__ROUTES:
-				return routes != null && !routes.isEmpty();
-			case MicroserviceDSLPackage.GATEWAY__CUSTOM_DEPS:
-				return customDeps != null && !customDeps.isEmpty();
-		}
-		return super.eIsSet(featureID);
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public boolean eIsSet(int featureID)
+  {
+    switch (featureID)
+    {
+      case MicroserviceDSLPackage.GATEWAY__NAME:
+        return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
+      case MicroserviceDSLPackage.GATEWAY__PORT:
+        return port != PORT_EDEFAULT;
+      case MicroserviceDSLPackage.GATEWAY__ROUTES:
+        return routes != null && !routes.isEmpty();
+      case MicroserviceDSLPackage.GATEWAY__CUSTOM_DEPS:
+        return customDeps != null && !customDeps.isEmpty();
+    }
+    return super.eIsSet(featureID);
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public String toString() {
-		if (eIsProxy()) return super.toString();
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public String toString()
+  {
+    if (eIsProxy()) return super.toString();
 
-		StringBuilder result = new StringBuilder(super.toString());
-		result.append(" (name: ");
-		result.append(name);
-		result.append(", port: ");
-		result.append(port);
-		result.append(", customDeps: ");
-		result.append(customDeps);
-		result.append(')');
-		return result.toString();
-	}
+    StringBuilder result = new StringBuilder(super.toString());
+    result.append(" (name: ");
+    result.append(name);
+    result.append(", port: ");
+    result.append(port);
+    result.append(", customDeps: ");
+    result.append(customDeps);
+    result.append(')');
+    return result.toString();
+  }
 
 } //GatewayImpl

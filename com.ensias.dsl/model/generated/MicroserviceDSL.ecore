@@ -79,7 +79,6 @@
     <eLiterals name="CONFIG_CLIENT" value="3" literal="CONFIG_CLIENT"/>
     <eLiterals name="ACTUATOR" value="4" literal="ACTUATOR"/>
     <eLiterals name="LOMBOK" value="5" literal="LOMBOK"/>
-    <eLiterals name="CUSTOM" value="6" literal="CUSTOM"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EEnum" name="DatabaseDriver">
     <eLiterals name="MYSQL" literal="MYSQL"/>

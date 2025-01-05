@@ -30,171 +30,172 @@ import org.eclipse.emf.ecore.EObject;
  * @model
  * @generated
  */
-public interface Model extends EObject {
-	/**
-	 * Returns the value of the '<em><b>Name</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Name</em>' attribute.
-	 * @see #setName(String)
-	 * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getModel_Name()
-	 * @model unique="false"
-	 * @generated
-	 */
-	String getName();
+public interface Model extends EObject
+{
+  /**
+   * Returns the value of the '<em><b>Name</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Name</em>' attribute.
+   * @see #setName(String)
+   * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getModel_Name()
+   * @model
+   * @generated
+   */
+  String getName();
 
-	/**
-	 * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.Model#getName <em>Name</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Name</em>' attribute.
-	 * @see #getName()
-	 * @generated
-	 */
-	void setName(String value);
+  /**
+   * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.Model#getName <em>Name</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @param value the new value of the '<em>Name</em>' attribute.
+   * @see #getName()
+   * @generated
+   */
+  void setName(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Group Name</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Group Name</em>' attribute.
-	 * @see #setGroupName(String)
-	 * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getModel_GroupName()
-	 * @model unique="false"
-	 * @generated
-	 */
-	String getGroupName();
+  /**
+   * Returns the value of the '<em><b>Group Name</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Group Name</em>' attribute.
+   * @see #setGroupName(String)
+   * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getModel_GroupName()
+   * @model
+   * @generated
+   */
+  String getGroupName();
 
-	/**
-	 * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.Model#getGroupName <em>Group Name</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Group Name</em>' attribute.
-	 * @see #getGroupName()
-	 * @generated
-	 */
-	void setGroupName(String value);
+  /**
+   * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.Model#getGroupName <em>Group Name</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @param value the new value of the '<em>Group Name</em>' attribute.
+   * @see #getGroupName()
+   * @generated
+   */
+  void setGroupName(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Version</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Version</em>' attribute.
-	 * @see #setVersion(String)
-	 * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getModel_Version()
-	 * @model unique="false"
-	 * @generated
-	 */
-	String getVersion();
+  /**
+   * Returns the value of the '<em><b>Version</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Version</em>' attribute.
+   * @see #setVersion(String)
+   * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getModel_Version()
+   * @model
+   * @generated
+   */
+  String getVersion();
 
-	/**
-	 * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.Model#getVersion <em>Version</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Version</em>' attribute.
-	 * @see #getVersion()
-	 * @generated
-	 */
-	void setVersion(String value);
+  /**
+   * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.Model#getVersion <em>Version</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @param value the new value of the '<em>Version</em>' attribute.
+   * @see #getVersion()
+   * @generated
+   */
+  void setVersion(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Description</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Description</em>' attribute.
-	 * @see #setDescription(String)
-	 * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getModel_Description()
-	 * @model unique="false"
-	 * @generated
-	 */
-	String getDescription();
+  /**
+   * Returns the value of the '<em><b>Description</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Description</em>' attribute.
+   * @see #setDescription(String)
+   * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getModel_Description()
+   * @model
+   * @generated
+   */
+  String getDescription();
 
-	/**
-	 * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.Model#getDescription <em>Description</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Description</em>' attribute.
-	 * @see #getDescription()
-	 * @generated
-	 */
-	void setDescription(String value);
+  /**
+   * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.Model#getDescription <em>Description</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @param value the new value of the '<em>Description</em>' attribute.
+   * @see #getDescription()
+   * @generated
+   */
+  void setDescription(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Discovery</b></em>' containment reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Discovery</em>' containment reference.
-	 * @see #setDiscovery(Discovery)
-	 * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getModel_Discovery()
-	 * @model containment="true"
-	 * @generated
-	 */
-	Discovery getDiscovery();
+  /**
+   * Returns the value of the '<em><b>Discovery</b></em>' containment reference.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Discovery</em>' containment reference.
+   * @see #setDiscovery(Discovery)
+   * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getModel_Discovery()
+   * @model containment="true"
+   * @generated
+   */
+  Discovery getDiscovery();
 
-	/**
-	 * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.Model#getDiscovery <em>Discovery</em>}' containment reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Discovery</em>' containment reference.
-	 * @see #getDiscovery()
-	 * @generated
-	 */
-	void setDiscovery(Discovery value);
+  /**
+   * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.Model#getDiscovery <em>Discovery</em>}' containment reference.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @param value the new value of the '<em>Discovery</em>' containment reference.
+   * @see #getDiscovery()
+   * @generated
+   */
+  void setDiscovery(Discovery value);
 
-	/**
-	 * Returns the value of the '<em><b>Config Server</b></em>' containment reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Config Server</em>' containment reference.
-	 * @see #setConfigServer(ConfigServer)
-	 * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getModel_ConfigServer()
-	 * @model containment="true"
-	 * @generated
-	 */
-	ConfigServer getConfigServer();
+  /**
+   * Returns the value of the '<em><b>Config Server</b></em>' containment reference.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Config Server</em>' containment reference.
+   * @see #setConfigServer(ConfigServer)
+   * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getModel_ConfigServer()
+   * @model containment="true"
+   * @generated
+   */
+  ConfigServer getConfigServer();
 
-	/**
-	 * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.Model#getConfigServer <em>Config Server</em>}' containment reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Config Server</em>' containment reference.
-	 * @see #getConfigServer()
-	 * @generated
-	 */
-	void setConfigServer(ConfigServer value);
+  /**
+   * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.Model#getConfigServer <em>Config Server</em>}' containment reference.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @param value the new value of the '<em>Config Server</em>' containment reference.
+   * @see #getConfigServer()
+   * @generated
+   */
+  void setConfigServer(ConfigServer value);
 
-	/**
-	 * Returns the value of the '<em><b>Services</b></em>' containment reference list.
-	 * The list contents are of type {@link com.ensias.dsl.microserviceDSL.Service}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Services</em>' containment reference list.
-	 * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getModel_Services()
-	 * @model containment="true"
-	 * @generated
-	 */
-	EList<Service> getServices();
+  /**
+   * Returns the value of the '<em><b>Services</b></em>' containment reference list.
+   * The list contents are of type {@link com.ensias.dsl.microserviceDSL.Service}.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Services</em>' containment reference list.
+   * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getModel_Services()
+   * @model containment="true"
+   * @generated
+   */
+  EList<Service> getServices();
 
-	/**
-	 * Returns the value of the '<em><b>Gateway</b></em>' containment reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Gateway</em>' containment reference.
-	 * @see #setGateway(Gateway)
-	 * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getModel_Gateway()
-	 * @model containment="true"
-	 * @generated
-	 */
-	Gateway getGateway();
+  /**
+   * Returns the value of the '<em><b>Gateway</b></em>' containment reference.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Gateway</em>' containment reference.
+   * @see #setGateway(Gateway)
+   * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getModel_Gateway()
+   * @model containment="true"
+   * @generated
+   */
+  Gateway getGateway();
 
-	/**
-	 * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.Model#getGateway <em>Gateway</em>}' containment reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Gateway</em>' containment reference.
-	 * @see #getGateway()
-	 * @generated
-	 */
-	void setGateway(Gateway value);
+  /**
+   * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.Model#getGateway <em>Gateway</em>}' containment reference.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @param value the new value of the '<em>Gateway</em>' containment reference.
+   * @see #getGateway()
+   * @generated
+   */
+  void setGateway(Gateway value);
 
 } // Model

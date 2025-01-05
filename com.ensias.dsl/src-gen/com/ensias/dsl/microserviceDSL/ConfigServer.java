@@ -27,107 +27,108 @@ import org.eclipse.emf.ecore.EObject;
  * @model
  * @generated
  */
-public interface ConfigServer extends EObject {
-	/**
-	 * Returns the value of the '<em><b>Name</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Name</em>' attribute.
-	 * @see #setName(String)
-	 * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getConfigServer_Name()
-	 * @model unique="false"
-	 * @generated
-	 */
-	String getName();
+public interface ConfigServer extends EObject
+{
+  /**
+   * Returns the value of the '<em><b>Name</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Name</em>' attribute.
+   * @see #setName(String)
+   * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getConfigServer_Name()
+   * @model
+   * @generated
+   */
+  String getName();
 
-	/**
-	 * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.ConfigServer#getName <em>Name</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Name</em>' attribute.
-	 * @see #getName()
-	 * @generated
-	 */
-	void setName(String value);
+  /**
+   * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.ConfigServer#getName <em>Name</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @param value the new value of the '<em>Name</em>' attribute.
+   * @see #getName()
+   * @generated
+   */
+  void setName(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Port</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Port</em>' attribute.
-	 * @see #setPort(int)
-	 * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getConfigServer_Port()
-	 * @model unique="false"
-	 * @generated
-	 */
-	int getPort();
+  /**
+   * Returns the value of the '<em><b>Port</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Port</em>' attribute.
+   * @see #setPort(int)
+   * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getConfigServer_Port()
+   * @model
+   * @generated
+   */
+  int getPort();
 
-	/**
-	 * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.ConfigServer#getPort <em>Port</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Port</em>' attribute.
-	 * @see #getPort()
-	 * @generated
-	 */
-	void setPort(int value);
+  /**
+   * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.ConfigServer#getPort <em>Port</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @param value the new value of the '<em>Port</em>' attribute.
+   * @see #getPort()
+   * @generated
+   */
+  void setPort(int value);
 
-	/**
-	 * Returns the value of the '<em><b>Git Uri</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Git Uri</em>' attribute.
-	 * @see #setGitUri(String)
-	 * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getConfigServer_GitUri()
-	 * @model unique="false"
-	 * @generated
-	 */
-	String getGitUri();
+  /**
+   * Returns the value of the '<em><b>Git Uri</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Git Uri</em>' attribute.
+   * @see #setGitUri(String)
+   * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getConfigServer_GitUri()
+   * @model
+   * @generated
+   */
+  String getGitUri();
 
-	/**
-	 * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.ConfigServer#getGitUri <em>Git Uri</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Git Uri</em>' attribute.
-	 * @see #getGitUri()
-	 * @generated
-	 */
-	void setGitUri(String value);
+  /**
+   * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.ConfigServer#getGitUri <em>Git Uri</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @param value the new value of the '<em>Git Uri</em>' attribute.
+   * @see #getGitUri()
+   * @generated
+   */
+  void setGitUri(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Git Branch</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Git Branch</em>' attribute.
-	 * @see #setGitBranch(String)
-	 * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getConfigServer_GitBranch()
-	 * @model unique="false"
-	 * @generated
-	 */
-	String getGitBranch();
+  /**
+   * Returns the value of the '<em><b>Git Branch</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Git Branch</em>' attribute.
+   * @see #setGitBranch(String)
+   * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getConfigServer_GitBranch()
+   * @model
+   * @generated
+   */
+  String getGitBranch();
 
-	/**
-	 * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.ConfigServer#getGitBranch <em>Git Branch</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Git Branch</em>' attribute.
-	 * @see #getGitBranch()
-	 * @generated
-	 */
-	void setGitBranch(String value);
+  /**
+   * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.ConfigServer#getGitBranch <em>Git Branch</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @param value the new value of the '<em>Git Branch</em>' attribute.
+   * @see #getGitBranch()
+   * @generated
+   */
+  void setGitBranch(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Custom Deps</b></em>' attribute list.
-	 * The list contents are of type {@link com.ensias.dsl.microserviceDSL.Dependency}.
-	 * The literals are from the enumeration {@link com.ensias.dsl.microserviceDSL.Dependency}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Custom Deps</em>' attribute list.
-	 * @see com.ensias.dsl.microserviceDSL.Dependency
-	 * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getConfigServer_CustomDeps()
-	 * @model unique="false"
-	 * @generated
-	 */
-	EList<Dependency> getCustomDeps();
+  /**
+   * Returns the value of the '<em><b>Custom Deps</b></em>' attribute list.
+   * The list contents are of type {@link com.ensias.dsl.microserviceDSL.Dependency}.
+   * The literals are from the enumeration {@link com.ensias.dsl.microserviceDSL.Dependency}.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Custom Deps</em>' attribute list.
+   * @see com.ensias.dsl.microserviceDSL.Dependency
+   * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getConfigServer_CustomDeps()
+   * @model unique="false"
+   * @generated
+   */
+  EList<Dependency> getCustomDeps();
 
 } // ConfigServer

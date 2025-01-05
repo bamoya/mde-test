@@ -22,7 +22,7 @@ import java.util.ArrayList;
 @SuppressWarnings("all")
 public class InternalMicroserviceDSLParser extends AbstractInternalAntlrParser {
     public static final String[] tokenNames = new String[] {
-        "<invalid>", "<EOR>", "<DOWN>", "<UP>", "RULE_ID", "RULE_STRING", "RULE_INT", "RULE_ML_COMMENT", "RULE_SL_COMMENT", "RULE_WS", "RULE_ANY_OTHER", "'project'", "'group'", "'version'", "'description'", "'{'", "'}'", "'discovery'", "'port'", "'defaultZone'", "'dependencies'", "'gateway'", "'routes'", "'route'", "'path'", "'service'", "'config-server'", "'git-uri'", "'git-branch'", "'config'", "'server-config'", "'context-path'", "'application-config'", "'name'", "'profile'", "'logging-level'", "'database-config'", "'url'", "'username'", "'password'", "'driver'", "'ddl'", "'actuator-config'", "'healthcheck-path'", "'metrics-enabled'", "'true'", "'false'", "'info-enabled'", "'.'", "'JPA'", "'SPRING_WEB'", "'EUREKA_CLIENT'", "'CONFIG_CLIENT'", "'ACTUATOR'", "'LOMBOK'", "'CUSTOM'", "'MYSQL'", "'POSTGRESQL'", "'H2'", "'CREATE'", "'CREATE_UPDATE'", "'INFO'", "'DEBUG'", "'WARN'", "'ERROR'", "'TRACE'"
+        "<invalid>", "<EOR>", "<DOWN>", "<UP>", "RULE_ID", "RULE_STRING", "RULE_INT", "RULE_ML_COMMENT", "RULE_SL_COMMENT", "RULE_WS", "RULE_ANY_OTHER", "'project'", "'group'", "'version'", "'description'", "'{'", "'}'", "'discovery'", "'port'", "'defaultZone'", "'dependencies'", "'gateway'", "'routes'", "'route'", "'path'", "'service'", "'config-server'", "'git-uri'", "'git-branch'", "'config'", "'server-config'", "'context-path'", "'application-config'", "'name'", "'profile'", "'logging-level'", "'database-config'", "'url'", "'username'", "'password'", "'driver'", "'ddl'", "'actuator-config'", "'healthcheck-path'", "'metrics-enabled'", "'true'", "'false'", "'info-enabled'", "'.'", "'JPA'", "'SPRING_WEB'", "'EUREKA_CLIENT'", "'CONFIG_CLIENT'", "'ACTUATOR'", "'LOMBOK'", "'MYSQL'", "'POSTGRESQL'", "'H2'", "'CREATE'", "'CREATE_UPDATE'", "'INFO'", "'DEBUG'", "'WARN'", "'ERROR'", "'TRACE'"
     };
     public static final int T__50=50;
     public static final int T__19=19;
@@ -61,7 +61,6 @@ public class InternalMicroserviceDSLParser extends AbstractInternalAntlrParser {
     public static final int T__20=20;
     public static final int T__64=64;
     public static final int T__21=21;
-    public static final int T__65=65;
     public static final int RULE_STRING=5;
     public static final int RULE_SL_COMMENT=8;
     public static final int T__37=37;
@@ -685,7 +684,7 @@ public class InternalMicroserviceDSLParser extends AbstractInternalAntlrParser {
                 int alt3=2;
                 int LA3_0 = input.LA(1);
 
-                if ( ((LA3_0>=49 && LA3_0<=55)) ) {
+                if ( ((LA3_0>=49 && LA3_0<=54)) ) {
                     alt3=1;
                 }
 
@@ -982,7 +981,7 @@ public class InternalMicroserviceDSLParser extends AbstractInternalAntlrParser {
                 int alt6=2;
                 int LA6_0 = input.LA(1);
 
-                if ( ((LA6_0>=49 && LA6_0<=55)) ) {
+                if ( ((LA6_0>=49 && LA6_0<=54)) ) {
                     alt6=1;
                 }
 
@@ -1425,7 +1424,7 @@ public class InternalMicroserviceDSLParser extends AbstractInternalAntlrParser {
                 int alt8=2;
                 int LA8_0 = input.LA(1);
 
-                if ( ((LA8_0>=49 && LA8_0<=55)) ) {
+                if ( ((LA8_0>=49 && LA8_0<=54)) ) {
                     alt8=1;
                 }
 
@@ -1612,7 +1611,7 @@ public class InternalMicroserviceDSLParser extends AbstractInternalAntlrParser {
                 int alt9=2;
                 int LA9_0 = input.LA(1);
 
-                if ( ((LA9_0>=49 && LA9_0<=55)) ) {
+                if ( ((LA9_0>=49 && LA9_0<=54)) ) {
                     alt9=1;
                 }
 
@@ -3053,7 +3052,7 @@ public class InternalMicroserviceDSLParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleDependency"
-    // InternalMicroserviceDSL.g:1388:1: ruleDependency returns [Enumerator current=null] : ( (enumLiteral_0= 'JPA' ) | (enumLiteral_1= 'SPRING_WEB' ) | (enumLiteral_2= 'EUREKA_CLIENT' ) | (enumLiteral_3= 'CONFIG_CLIENT' ) | (enumLiteral_4= 'ACTUATOR' ) | (enumLiteral_5= 'LOMBOK' ) | (enumLiteral_6= 'CUSTOM' ) ) ;
+    // InternalMicroserviceDSL.g:1388:1: ruleDependency returns [Enumerator current=null] : ( (enumLiteral_0= 'JPA' ) | (enumLiteral_1= 'SPRING_WEB' ) | (enumLiteral_2= 'EUREKA_CLIENT' ) | (enumLiteral_3= 'CONFIG_CLIENT' ) | (enumLiteral_4= 'ACTUATOR' ) | (enumLiteral_5= 'LOMBOK' ) ) ;
     public final Enumerator ruleDependency() throws RecognitionException {
         Enumerator current = null;
 
@@ -3063,17 +3062,16 @@ public class InternalMicroserviceDSLParser extends AbstractInternalAntlrParser {
         Token enumLiteral_3=null;
         Token enumLiteral_4=null;
         Token enumLiteral_5=null;
-        Token enumLiteral_6=null;
 
 
         	enterRule();
 
         try {
-            // InternalMicroserviceDSL.g:1394:2: ( ( (enumLiteral_0= 'JPA' ) | (enumLiteral_1= 'SPRING_WEB' ) | (enumLiteral_2= 'EUREKA_CLIENT' ) | (enumLiteral_3= 'CONFIG_CLIENT' ) | (enumLiteral_4= 'ACTUATOR' ) | (enumLiteral_5= 'LOMBOK' ) | (enumLiteral_6= 'CUSTOM' ) ) )
-            // InternalMicroserviceDSL.g:1395:2: ( (enumLiteral_0= 'JPA' ) | (enumLiteral_1= 'SPRING_WEB' ) | (enumLiteral_2= 'EUREKA_CLIENT' ) | (enumLiteral_3= 'CONFIG_CLIENT' ) | (enumLiteral_4= 'ACTUATOR' ) | (enumLiteral_5= 'LOMBOK' ) | (enumLiteral_6= 'CUSTOM' ) )
+            // InternalMicroserviceDSL.g:1394:2: ( ( (enumLiteral_0= 'JPA' ) | (enumLiteral_1= 'SPRING_WEB' ) | (enumLiteral_2= 'EUREKA_CLIENT' ) | (enumLiteral_3= 'CONFIG_CLIENT' ) | (enumLiteral_4= 'ACTUATOR' ) | (enumLiteral_5= 'LOMBOK' ) ) )
+            // InternalMicroserviceDSL.g:1395:2: ( (enumLiteral_0= 'JPA' ) | (enumLiteral_1= 'SPRING_WEB' ) | (enumLiteral_2= 'EUREKA_CLIENT' ) | (enumLiteral_3= 'CONFIG_CLIENT' ) | (enumLiteral_4= 'ACTUATOR' ) | (enumLiteral_5= 'LOMBOK' ) )
             {
-            // InternalMicroserviceDSL.g:1395:2: ( (enumLiteral_0= 'JPA' ) | (enumLiteral_1= 'SPRING_WEB' ) | (enumLiteral_2= 'EUREKA_CLIENT' ) | (enumLiteral_3= 'CONFIG_CLIENT' ) | (enumLiteral_4= 'ACTUATOR' ) | (enumLiteral_5= 'LOMBOK' ) | (enumLiteral_6= 'CUSTOM' ) )
-            int alt23=7;
+            // InternalMicroserviceDSL.g:1395:2: ( (enumLiteral_0= 'JPA' ) | (enumLiteral_1= 'SPRING_WEB' ) | (enumLiteral_2= 'EUREKA_CLIENT' ) | (enumLiteral_3= 'CONFIG_CLIENT' ) | (enumLiteral_4= 'ACTUATOR' ) | (enumLiteral_5= 'LOMBOK' ) )
+            int alt23=6;
             switch ( input.LA(1) ) {
             case 49:
                 {
@@ -3103,11 +3101,6 @@ public class InternalMicroserviceDSLParser extends AbstractInternalAntlrParser {
             case 54:
                 {
                 alt23=6;
-                }
-                break;
-            case 55:
-                {
-                alt23=7;
                 }
                 break;
             default:
@@ -3220,23 +3213,6 @@ public class InternalMicroserviceDSLParser extends AbstractInternalAntlrParser {
 
                     }
                     break;
-                case 7 :
-                    // InternalMicroserviceDSL.g:1444:3: (enumLiteral_6= 'CUSTOM' )
-                    {
-                    // InternalMicroserviceDSL.g:1444:3: (enumLiteral_6= 'CUSTOM' )
-                    // InternalMicroserviceDSL.g:1445:4: enumLiteral_6= 'CUSTOM'
-                    {
-                    enumLiteral_6=(Token)match(input,55,FOLLOW_2); 
-
-                    				current = grammarAccess.getDependencyAccess().getCUSTOMEnumLiteralDeclaration_6().getEnumLiteral().getInstance();
-                    				newLeafNode(enumLiteral_6, grammarAccess.getDependencyAccess().getCUSTOMEnumLiteralDeclaration_6());
-                    			
-
-                    }
-
-
-                    }
-                    break;
 
             }
 
@@ -3260,7 +3236,7 @@ public class InternalMicroserviceDSLParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleDatabaseDriver"
-    // InternalMicroserviceDSL.g:1455:1: ruleDatabaseDriver returns [Enumerator current=null] : ( (enumLiteral_0= 'MYSQL' ) | (enumLiteral_1= 'POSTGRESQL' ) | (enumLiteral_2= 'H2' ) ) ;
+    // InternalMicroserviceDSL.g:1447:1: ruleDatabaseDriver returns [Enumerator current=null] : ( (enumLiteral_0= 'MYSQL' ) | (enumLiteral_1= 'POSTGRESQL' ) | (enumLiteral_2= 'H2' ) ) ;
     public final Enumerator ruleDatabaseDriver() throws RecognitionException {
         Enumerator current = null;
 
@@ -3272,23 +3248,23 @@ public class InternalMicroserviceDSLParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalMicroserviceDSL.g:1461:2: ( ( (enumLiteral_0= 'MYSQL' ) | (enumLiteral_1= 'POSTGRESQL' ) | (enumLiteral_2= 'H2' ) ) )
-            // InternalMicroserviceDSL.g:1462:2: ( (enumLiteral_0= 'MYSQL' ) | (enumLiteral_1= 'POSTGRESQL' ) | (enumLiteral_2= 'H2' ) )
+            // InternalMicroserviceDSL.g:1453:2: ( ( (enumLiteral_0= 'MYSQL' ) | (enumLiteral_1= 'POSTGRESQL' ) | (enumLiteral_2= 'H2' ) ) )
+            // InternalMicroserviceDSL.g:1454:2: ( (enumLiteral_0= 'MYSQL' ) | (enumLiteral_1= 'POSTGRESQL' ) | (enumLiteral_2= 'H2' ) )
             {
-            // InternalMicroserviceDSL.g:1462:2: ( (enumLiteral_0= 'MYSQL' ) | (enumLiteral_1= 'POSTGRESQL' ) | (enumLiteral_2= 'H2' ) )
+            // InternalMicroserviceDSL.g:1454:2: ( (enumLiteral_0= 'MYSQL' ) | (enumLiteral_1= 'POSTGRESQL' ) | (enumLiteral_2= 'H2' ) )
             int alt24=3;
             switch ( input.LA(1) ) {
-            case 56:
+            case 55:
                 {
                 alt24=1;
                 }
                 break;
-            case 57:
+            case 56:
                 {
                 alt24=2;
                 }
                 break;
-            case 58:
+            case 57:
                 {
                 alt24=3;
                 }
@@ -3302,12 +3278,12 @@ public class InternalMicroserviceDSLParser extends AbstractInternalAntlrParser {
 
             switch (alt24) {
                 case 1 :
-                    // InternalMicroserviceDSL.g:1463:3: (enumLiteral_0= 'MYSQL' )
+                    // InternalMicroserviceDSL.g:1455:3: (enumLiteral_0= 'MYSQL' )
                     {
-                    // InternalMicroserviceDSL.g:1463:3: (enumLiteral_0= 'MYSQL' )
-                    // InternalMicroserviceDSL.g:1464:4: enumLiteral_0= 'MYSQL'
+                    // InternalMicroserviceDSL.g:1455:3: (enumLiteral_0= 'MYSQL' )
+                    // InternalMicroserviceDSL.g:1456:4: enumLiteral_0= 'MYSQL'
                     {
-                    enumLiteral_0=(Token)match(input,56,FOLLOW_2); 
+                    enumLiteral_0=(Token)match(input,55,FOLLOW_2); 
 
                     				current = grammarAccess.getDatabaseDriverAccess().getMYSQLEnumLiteralDeclaration_0().getEnumLiteral().getInstance();
                     				newLeafNode(enumLiteral_0, grammarAccess.getDatabaseDriverAccess().getMYSQLEnumLiteralDeclaration_0());
@@ -3319,12 +3295,12 @@ public class InternalMicroserviceDSLParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 2 :
-                    // InternalMicroserviceDSL.g:1471:3: (enumLiteral_1= 'POSTGRESQL' )
+                    // InternalMicroserviceDSL.g:1463:3: (enumLiteral_1= 'POSTGRESQL' )
                     {
-                    // InternalMicroserviceDSL.g:1471:3: (enumLiteral_1= 'POSTGRESQL' )
-                    // InternalMicroserviceDSL.g:1472:4: enumLiteral_1= 'POSTGRESQL'
+                    // InternalMicroserviceDSL.g:1463:3: (enumLiteral_1= 'POSTGRESQL' )
+                    // InternalMicroserviceDSL.g:1464:4: enumLiteral_1= 'POSTGRESQL'
                     {
-                    enumLiteral_1=(Token)match(input,57,FOLLOW_2); 
+                    enumLiteral_1=(Token)match(input,56,FOLLOW_2); 
 
                     				current = grammarAccess.getDatabaseDriverAccess().getPOSTGRESQLEnumLiteralDeclaration_1().getEnumLiteral().getInstance();
                     				newLeafNode(enumLiteral_1, grammarAccess.getDatabaseDriverAccess().getPOSTGRESQLEnumLiteralDeclaration_1());
@@ -3336,12 +3312,12 @@ public class InternalMicroserviceDSLParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 3 :
-                    // InternalMicroserviceDSL.g:1479:3: (enumLiteral_2= 'H2' )
+                    // InternalMicroserviceDSL.g:1471:3: (enumLiteral_2= 'H2' )
                     {
-                    // InternalMicroserviceDSL.g:1479:3: (enumLiteral_2= 'H2' )
-                    // InternalMicroserviceDSL.g:1480:4: enumLiteral_2= 'H2'
+                    // InternalMicroserviceDSL.g:1471:3: (enumLiteral_2= 'H2' )
+                    // InternalMicroserviceDSL.g:1472:4: enumLiteral_2= 'H2'
                     {
-                    enumLiteral_2=(Token)match(input,58,FOLLOW_2); 
+                    enumLiteral_2=(Token)match(input,57,FOLLOW_2); 
 
                     				current = grammarAccess.getDatabaseDriverAccess().getH2EnumLiteralDeclaration_2().getEnumLiteral().getInstance();
                     				newLeafNode(enumLiteral_2, grammarAccess.getDatabaseDriverAccess().getH2EnumLiteralDeclaration_2());
@@ -3375,7 +3351,7 @@ public class InternalMicroserviceDSLParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleDdlType"
-    // InternalMicroserviceDSL.g:1490:1: ruleDdlType returns [Enumerator current=null] : ( (enumLiteral_0= 'CREATE' ) | (enumLiteral_1= 'CREATE_UPDATE' ) ) ;
+    // InternalMicroserviceDSL.g:1482:1: ruleDdlType returns [Enumerator current=null] : ( (enumLiteral_0= 'CREATE' ) | (enumLiteral_1= 'CREATE_UPDATE' ) ) ;
     public final Enumerator ruleDdlType() throws RecognitionException {
         Enumerator current = null;
 
@@ -3386,17 +3362,17 @@ public class InternalMicroserviceDSLParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalMicroserviceDSL.g:1496:2: ( ( (enumLiteral_0= 'CREATE' ) | (enumLiteral_1= 'CREATE_UPDATE' ) ) )
-            // InternalMicroserviceDSL.g:1497:2: ( (enumLiteral_0= 'CREATE' ) | (enumLiteral_1= 'CREATE_UPDATE' ) )
+            // InternalMicroserviceDSL.g:1488:2: ( ( (enumLiteral_0= 'CREATE' ) | (enumLiteral_1= 'CREATE_UPDATE' ) ) )
+            // InternalMicroserviceDSL.g:1489:2: ( (enumLiteral_0= 'CREATE' ) | (enumLiteral_1= 'CREATE_UPDATE' ) )
             {
-            // InternalMicroserviceDSL.g:1497:2: ( (enumLiteral_0= 'CREATE' ) | (enumLiteral_1= 'CREATE_UPDATE' ) )
+            // InternalMicroserviceDSL.g:1489:2: ( (enumLiteral_0= 'CREATE' ) | (enumLiteral_1= 'CREATE_UPDATE' ) )
             int alt25=2;
             int LA25_0 = input.LA(1);
 
-            if ( (LA25_0==59) ) {
+            if ( (LA25_0==58) ) {
                 alt25=1;
             }
-            else if ( (LA25_0==60) ) {
+            else if ( (LA25_0==59) ) {
                 alt25=2;
             }
             else {
@@ -3407,12 +3383,12 @@ public class InternalMicroserviceDSLParser extends AbstractInternalAntlrParser {
             }
             switch (alt25) {
                 case 1 :
-                    // InternalMicroserviceDSL.g:1498:3: (enumLiteral_0= 'CREATE' )
+                    // InternalMicroserviceDSL.g:1490:3: (enumLiteral_0= 'CREATE' )
                     {
-                    // InternalMicroserviceDSL.g:1498:3: (enumLiteral_0= 'CREATE' )
-                    // InternalMicroserviceDSL.g:1499:4: enumLiteral_0= 'CREATE'
+                    // InternalMicroserviceDSL.g:1490:3: (enumLiteral_0= 'CREATE' )
+                    // InternalMicroserviceDSL.g:1491:4: enumLiteral_0= 'CREATE'
                     {
-                    enumLiteral_0=(Token)match(input,59,FOLLOW_2); 
+                    enumLiteral_0=(Token)match(input,58,FOLLOW_2); 
 
                     				current = grammarAccess.getDdlTypeAccess().getCREATEEnumLiteralDeclaration_0().getEnumLiteral().getInstance();
                     				newLeafNode(enumLiteral_0, grammarAccess.getDdlTypeAccess().getCREATEEnumLiteralDeclaration_0());
@@ -3424,12 +3400,12 @@ public class InternalMicroserviceDSLParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 2 :
-                    // InternalMicroserviceDSL.g:1506:3: (enumLiteral_1= 'CREATE_UPDATE' )
+                    // InternalMicroserviceDSL.g:1498:3: (enumLiteral_1= 'CREATE_UPDATE' )
                     {
-                    // InternalMicroserviceDSL.g:1506:3: (enumLiteral_1= 'CREATE_UPDATE' )
-                    // InternalMicroserviceDSL.g:1507:4: enumLiteral_1= 'CREATE_UPDATE'
+                    // InternalMicroserviceDSL.g:1498:3: (enumLiteral_1= 'CREATE_UPDATE' )
+                    // InternalMicroserviceDSL.g:1499:4: enumLiteral_1= 'CREATE_UPDATE'
                     {
-                    enumLiteral_1=(Token)match(input,60,FOLLOW_2); 
+                    enumLiteral_1=(Token)match(input,59,FOLLOW_2); 
 
                     				current = grammarAccess.getDdlTypeAccess().getCREATE_UPDATEEnumLiteralDeclaration_1().getEnumLiteral().getInstance();
                     				newLeafNode(enumLiteral_1, grammarAccess.getDdlTypeAccess().getCREATE_UPDATEEnumLiteralDeclaration_1());
@@ -3463,7 +3439,7 @@ public class InternalMicroserviceDSLParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleLogLevel"
-    // InternalMicroserviceDSL.g:1517:1: ruleLogLevel returns [Enumerator current=null] : ( (enumLiteral_0= 'INFO' ) | (enumLiteral_1= 'DEBUG' ) | (enumLiteral_2= 'WARN' ) | (enumLiteral_3= 'ERROR' ) | (enumLiteral_4= 'TRACE' ) ) ;
+    // InternalMicroserviceDSL.g:1509:1: ruleLogLevel returns [Enumerator current=null] : ( (enumLiteral_0= 'INFO' ) | (enumLiteral_1= 'DEBUG' ) | (enumLiteral_2= 'WARN' ) | (enumLiteral_3= 'ERROR' ) | (enumLiteral_4= 'TRACE' ) ) ;
     public final Enumerator ruleLogLevel() throws RecognitionException {
         Enumerator current = null;
 
@@ -3477,33 +3453,33 @@ public class InternalMicroserviceDSLParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalMicroserviceDSL.g:1523:2: ( ( (enumLiteral_0= 'INFO' ) | (enumLiteral_1= 'DEBUG' ) | (enumLiteral_2= 'WARN' ) | (enumLiteral_3= 'ERROR' ) | (enumLiteral_4= 'TRACE' ) ) )
-            // InternalMicroserviceDSL.g:1524:2: ( (enumLiteral_0= 'INFO' ) | (enumLiteral_1= 'DEBUG' ) | (enumLiteral_2= 'WARN' ) | (enumLiteral_3= 'ERROR' ) | (enumLiteral_4= 'TRACE' ) )
+            // InternalMicroserviceDSL.g:1515:2: ( ( (enumLiteral_0= 'INFO' ) | (enumLiteral_1= 'DEBUG' ) | (enumLiteral_2= 'WARN' ) | (enumLiteral_3= 'ERROR' ) | (enumLiteral_4= 'TRACE' ) ) )
+            // InternalMicroserviceDSL.g:1516:2: ( (enumLiteral_0= 'INFO' ) | (enumLiteral_1= 'DEBUG' ) | (enumLiteral_2= 'WARN' ) | (enumLiteral_3= 'ERROR' ) | (enumLiteral_4= 'TRACE' ) )
             {
-            // InternalMicroserviceDSL.g:1524:2: ( (enumLiteral_0= 'INFO' ) | (enumLiteral_1= 'DEBUG' ) | (enumLiteral_2= 'WARN' ) | (enumLiteral_3= 'ERROR' ) | (enumLiteral_4= 'TRACE' ) )
+            // InternalMicroserviceDSL.g:1516:2: ( (enumLiteral_0= 'INFO' ) | (enumLiteral_1= 'DEBUG' ) | (enumLiteral_2= 'WARN' ) | (enumLiteral_3= 'ERROR' ) | (enumLiteral_4= 'TRACE' ) )
             int alt26=5;
             switch ( input.LA(1) ) {
-            case 61:
+            case 60:
                 {
                 alt26=1;
                 }
                 break;
-            case 62:
+            case 61:
                 {
                 alt26=2;
                 }
                 break;
-            case 63:
+            case 62:
                 {
                 alt26=3;
                 }
                 break;
-            case 64:
+            case 63:
                 {
                 alt26=4;
                 }
                 break;
-            case 65:
+            case 64:
                 {
                 alt26=5;
                 }
@@ -3517,12 +3493,12 @@ public class InternalMicroserviceDSLParser extends AbstractInternalAntlrParser {
 
             switch (alt26) {
                 case 1 :
-                    // InternalMicroserviceDSL.g:1525:3: (enumLiteral_0= 'INFO' )
+                    // InternalMicroserviceDSL.g:1517:3: (enumLiteral_0= 'INFO' )
                     {
-                    // InternalMicroserviceDSL.g:1525:3: (enumLiteral_0= 'INFO' )
-                    // InternalMicroserviceDSL.g:1526:4: enumLiteral_0= 'INFO'
+                    // InternalMicroserviceDSL.g:1517:3: (enumLiteral_0= 'INFO' )
+                    // InternalMicroserviceDSL.g:1518:4: enumLiteral_0= 'INFO'
                     {
-                    enumLiteral_0=(Token)match(input,61,FOLLOW_2); 
+                    enumLiteral_0=(Token)match(input,60,FOLLOW_2); 
 
                     				current = grammarAccess.getLogLevelAccess().getINFOEnumLiteralDeclaration_0().getEnumLiteral().getInstance();
                     				newLeafNode(enumLiteral_0, grammarAccess.getLogLevelAccess().getINFOEnumLiteralDeclaration_0());
@@ -3534,12 +3510,12 @@ public class InternalMicroserviceDSLParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 2 :
-                    // InternalMicroserviceDSL.g:1533:3: (enumLiteral_1= 'DEBUG' )
+                    // InternalMicroserviceDSL.g:1525:3: (enumLiteral_1= 'DEBUG' )
                     {
-                    // InternalMicroserviceDSL.g:1533:3: (enumLiteral_1= 'DEBUG' )
-                    // InternalMicroserviceDSL.g:1534:4: enumLiteral_1= 'DEBUG'
+                    // InternalMicroserviceDSL.g:1525:3: (enumLiteral_1= 'DEBUG' )
+                    // InternalMicroserviceDSL.g:1526:4: enumLiteral_1= 'DEBUG'
                     {
-                    enumLiteral_1=(Token)match(input,62,FOLLOW_2); 
+                    enumLiteral_1=(Token)match(input,61,FOLLOW_2); 
 
                     				current = grammarAccess.getLogLevelAccess().getDEBUGEnumLiteralDeclaration_1().getEnumLiteral().getInstance();
                     				newLeafNode(enumLiteral_1, grammarAccess.getLogLevelAccess().getDEBUGEnumLiteralDeclaration_1());
@@ -3551,12 +3527,12 @@ public class InternalMicroserviceDSLParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 3 :
-                    // InternalMicroserviceDSL.g:1541:3: (enumLiteral_2= 'WARN' )
+                    // InternalMicroserviceDSL.g:1533:3: (enumLiteral_2= 'WARN' )
                     {
-                    // InternalMicroserviceDSL.g:1541:3: (enumLiteral_2= 'WARN' )
-                    // InternalMicroserviceDSL.g:1542:4: enumLiteral_2= 'WARN'
+                    // InternalMicroserviceDSL.g:1533:3: (enumLiteral_2= 'WARN' )
+                    // InternalMicroserviceDSL.g:1534:4: enumLiteral_2= 'WARN'
                     {
-                    enumLiteral_2=(Token)match(input,63,FOLLOW_2); 
+                    enumLiteral_2=(Token)match(input,62,FOLLOW_2); 
 
                     				current = grammarAccess.getLogLevelAccess().getWARNEnumLiteralDeclaration_2().getEnumLiteral().getInstance();
                     				newLeafNode(enumLiteral_2, grammarAccess.getLogLevelAccess().getWARNEnumLiteralDeclaration_2());
@@ -3568,12 +3544,12 @@ public class InternalMicroserviceDSLParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 4 :
-                    // InternalMicroserviceDSL.g:1549:3: (enumLiteral_3= 'ERROR' )
+                    // InternalMicroserviceDSL.g:1541:3: (enumLiteral_3= 'ERROR' )
                     {
-                    // InternalMicroserviceDSL.g:1549:3: (enumLiteral_3= 'ERROR' )
-                    // InternalMicroserviceDSL.g:1550:4: enumLiteral_3= 'ERROR'
+                    // InternalMicroserviceDSL.g:1541:3: (enumLiteral_3= 'ERROR' )
+                    // InternalMicroserviceDSL.g:1542:4: enumLiteral_3= 'ERROR'
                     {
-                    enumLiteral_3=(Token)match(input,64,FOLLOW_2); 
+                    enumLiteral_3=(Token)match(input,63,FOLLOW_2); 
 
                     				current = grammarAccess.getLogLevelAccess().getERROREnumLiteralDeclaration_3().getEnumLiteral().getInstance();
                     				newLeafNode(enumLiteral_3, grammarAccess.getLogLevelAccess().getERROREnumLiteralDeclaration_3());
@@ -3585,12 +3561,12 @@ public class InternalMicroserviceDSLParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 5 :
-                    // InternalMicroserviceDSL.g:1557:3: (enumLiteral_4= 'TRACE' )
+                    // InternalMicroserviceDSL.g:1549:3: (enumLiteral_4= 'TRACE' )
                     {
-                    // InternalMicroserviceDSL.g:1557:3: (enumLiteral_4= 'TRACE' )
-                    // InternalMicroserviceDSL.g:1558:4: enumLiteral_4= 'TRACE'
+                    // InternalMicroserviceDSL.g:1549:3: (enumLiteral_4= 'TRACE' )
+                    // InternalMicroserviceDSL.g:1550:4: enumLiteral_4= 'TRACE'
                     {
-                    enumLiteral_4=(Token)match(input,65,FOLLOW_2); 
+                    enumLiteral_4=(Token)match(input,64,FOLLOW_2); 
 
                     				current = grammarAccess.getLogLevelAccess().getTRACEEnumLiteralDeclaration_4().getEnumLiteral().getInstance();
                     				newLeafNode(enumLiteral_4, grammarAccess.getLogLevelAccess().getTRACEEnumLiteralDeclaration_4());
@@ -3643,7 +3619,7 @@ public class InternalMicroserviceDSLParser extends AbstractInternalAntlrParser {
     public static final BitSet FOLLOW_14 = new BitSet(new long[]{0x0000000000000040L});
     public static final BitSet FOLLOW_15 = new BitSet(new long[]{0x0000000000180000L});
     public static final BitSet FOLLOW_16 = new BitSet(new long[]{0x0000000000100000L});
-    public static final BitSet FOLLOW_17 = new BitSet(new long[]{0x00FE000000010000L});
+    public static final BitSet FOLLOW_17 = new BitSet(new long[]{0x007E000000010000L});
     public static final BitSet FOLLOW_18 = new BitSet(new long[]{0x0000000000500000L});
     public static final BitSet FOLLOW_19 = new BitSet(new long[]{0x0000000000810000L});
     public static final BitSet FOLLOW_20 = new BitSet(new long[]{0x0000000001000000L});
@@ -3656,14 +3632,14 @@ public class InternalMicroserviceDSLParser extends AbstractInternalAntlrParser {
     public static final BitSet FOLLOW_27 = new BitSet(new long[]{0x0000000E00010000L});
     public static final BitSet FOLLOW_28 = new BitSet(new long[]{0x0000000C00010000L});
     public static final BitSet FOLLOW_29 = new BitSet(new long[]{0x0000000800010000L});
-    public static final BitSet FOLLOW_30 = new BitSet(new long[]{0xE000000000000000L,0x0000000000000003L});
+    public static final BitSet FOLLOW_30 = new BitSet(new long[]{0xF000000000000000L,0x0000000000000001L});
     public static final BitSet FOLLOW_31 = new BitSet(new long[]{0x0000002000000000L});
     public static final BitSet FOLLOW_32 = new BitSet(new long[]{0x0000004000000000L});
     public static final BitSet FOLLOW_33 = new BitSet(new long[]{0x0000008000000000L});
     public static final BitSet FOLLOW_34 = new BitSet(new long[]{0x0000010000000000L});
-    public static final BitSet FOLLOW_35 = new BitSet(new long[]{0x0700000000000000L});
+    public static final BitSet FOLLOW_35 = new BitSet(new long[]{0x0380000000000000L});
     public static final BitSet FOLLOW_36 = new BitSet(new long[]{0x0000020000010000L});
-    public static final BitSet FOLLOW_37 = new BitSet(new long[]{0x1800000000000000L});
+    public static final BitSet FOLLOW_37 = new BitSet(new long[]{0x0C00000000000000L});
     public static final BitSet FOLLOW_38 = new BitSet(new long[]{0x0000980000010000L});
     public static final BitSet FOLLOW_39 = new BitSet(new long[]{0x0000900000010000L});
     public static final BitSet FOLLOW_40 = new BitSet(new long[]{0x0000600000000000L});

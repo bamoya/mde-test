@@ -960,14 +960,12 @@ public class MicroserviceDSLGrammarAccess extends AbstractElementFinder.Abstract
 		private final Keyword cACTUATORACTUATORKeyword_4_0 = (Keyword)cACTUATOREnumLiteralDeclaration_4.eContents().get(0);
 		private final EnumLiteralDeclaration cLOMBOKEnumLiteralDeclaration_5 = (EnumLiteralDeclaration)cAlternatives.eContents().get(5);
 		private final Keyword cLOMBOKLOMBOKKeyword_5_0 = (Keyword)cLOMBOKEnumLiteralDeclaration_5.eContents().get(0);
-		private final EnumLiteralDeclaration cCUSTOMEnumLiteralDeclaration_6 = (EnumLiteralDeclaration)cAlternatives.eContents().get(6);
-		private final Keyword cCUSTOMCUSTOMKeyword_6_0 = (Keyword)cCUSTOMEnumLiteralDeclaration_6.eContents().get(0);
 		
 		//enum Dependency:
-		//    JPA | SPRING_WEB | EUREKA_CLIENT | CONFIG_CLIENT | ACTUATOR | LOMBOK | CUSTOM;
+		//    JPA | SPRING_WEB | EUREKA_CLIENT | CONFIG_CLIENT | ACTUATOR | LOMBOK ;
 		public EnumRule getRule() { return rule; }
 		
-		//JPA | SPRING_WEB | EUREKA_CLIENT | CONFIG_CLIENT | ACTUATOR | LOMBOK | CUSTOM
+		//JPA | SPRING_WEB | EUREKA_CLIENT | CONFIG_CLIENT | ACTUATOR | LOMBOK
 		public Alternatives getAlternatives() { return cAlternatives; }
 		
 		//JPA
@@ -999,11 +997,6 @@ public class MicroserviceDSLGrammarAccess extends AbstractElementFinder.Abstract
 		public EnumLiteralDeclaration getLOMBOKEnumLiteralDeclaration_5() { return cLOMBOKEnumLiteralDeclaration_5; }
 		
 		public Keyword getLOMBOKLOMBOKKeyword_5_0() { return cLOMBOKLOMBOKKeyword_5_0; }
-		
-		//CUSTOM
-		public EnumLiteralDeclaration getCUSTOMEnumLiteralDeclaration_6() { return cCUSTOMEnumLiteralDeclaration_6; }
-		
-		public Keyword getCUSTOMCUSTOMKeyword_6_0() { return cCUSTOMCUSTOMKeyword_6_0; }
 	}
 	public class DatabaseDriverElements extends AbstractElementFinder.AbstractEnumRuleElementFinder {
 		private final EnumRule rule = (EnumRule) GrammarUtil.findRuleForName(getGrammar(), "com.ensias.dsl.MicroserviceDSL.DatabaseDriver");
@@ -1336,7 +1329,7 @@ public class MicroserviceDSLGrammarAccess extends AbstractElementFinder.Abstract
 	}
 	
 	//enum Dependency:
-	//    JPA | SPRING_WEB | EUREKA_CLIENT | CONFIG_CLIENT | ACTUATOR | LOMBOK | CUSTOM;
+	//    JPA | SPRING_WEB | EUREKA_CLIENT | CONFIG_CLIENT | ACTUATOR | LOMBOK ;
 	public DependencyElements getDependencyAccess() {
 		return eDependency;
 	}

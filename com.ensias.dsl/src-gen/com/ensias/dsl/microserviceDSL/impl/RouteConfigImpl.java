@@ -29,202 +29,221 @@ import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
  *
  * @generated
  */
-public class RouteConfigImpl extends MinimalEObjectImpl.Container implements RouteConfig {
-	/**
-	 * The default value of the '{@link #getPath() <em>Path</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getPath()
-	 * @generated
-	 * @ordered
-	 */
-	protected static final String PATH_EDEFAULT = null;
+public class RouteConfigImpl extends MinimalEObjectImpl.Container implements RouteConfig
+{
+  /**
+   * The default value of the '{@link #getPath() <em>Path</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getPath()
+   * @generated
+   * @ordered
+   */
+  protected static final String PATH_EDEFAULT = null;
 
-	/**
-	 * The cached value of the '{@link #getPath() <em>Path</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getPath()
-	 * @generated
-	 * @ordered
-	 */
-	protected String path = PATH_EDEFAULT;
+  /**
+   * The cached value of the '{@link #getPath() <em>Path</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getPath()
+   * @generated
+   * @ordered
+   */
+  protected String path = PATH_EDEFAULT;
 
-	/**
-	 * The cached value of the '{@link #getService() <em>Service</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getService()
-	 * @generated
-	 * @ordered
-	 */
-	protected Service service;
+  /**
+   * The cached value of the '{@link #getService() <em>Service</em>}' reference.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getService()
+   * @generated
+   * @ordered
+   */
+  protected Service service;
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected RouteConfigImpl() {
-		super();
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  protected RouteConfigImpl()
+  {
+    super();
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return MicroserviceDSLPackage.Literals.ROUTE_CONFIG;
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  protected EClass eStaticClass()
+  {
+    return MicroserviceDSLPackage.Literals.ROUTE_CONFIG;
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public String getPath() {
-		return path;
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public String getPath()
+  {
+    return path;
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public void setPath(String newPath) {
-		String oldPath = path;
-		path = newPath;
-		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, MicroserviceDSLPackage.ROUTE_CONFIG__PATH, oldPath, path));
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public void setPath(String newPath)
+  {
+    String oldPath = path;
+    path = newPath;
+    if (eNotificationRequired())
+      eNotify(new ENotificationImpl(this, Notification.SET, MicroserviceDSLPackage.ROUTE_CONFIG__PATH, oldPath, path));
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Service getService() {
-		if (service != null && service.eIsProxy()) {
-			InternalEObject oldService = (InternalEObject)service;
-			service = (Service)eResolveProxy(oldService);
-			if (service != oldService) {
-				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE, MicroserviceDSLPackage.ROUTE_CONFIG__SERVICE, oldService, service));
-			}
-		}
-		return service;
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public Service getService()
+  {
+    if (service != null && service.eIsProxy())
+    {
+      InternalEObject oldService = (InternalEObject)service;
+      service = (Service)eResolveProxy(oldService);
+      if (service != oldService)
+      {
+        if (eNotificationRequired())
+          eNotify(new ENotificationImpl(this, Notification.RESOLVE, MicroserviceDSLPackage.ROUTE_CONFIG__SERVICE, oldService, service));
+      }
+    }
+    return service;
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Service basicGetService() {
-		return service;
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public Service basicGetService()
+  {
+    return service;
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public void setService(Service newService) {
-		Service oldService = service;
-		service = newService;
-		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, MicroserviceDSLPackage.ROUTE_CONFIG__SERVICE, oldService, service));
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public void setService(Service newService)
+  {
+    Service oldService = service;
+    service = newService;
+    if (eNotificationRequired())
+      eNotify(new ENotificationImpl(this, Notification.SET, MicroserviceDSLPackage.ROUTE_CONFIG__SERVICE, oldService, service));
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Object eGet(int featureID, boolean resolve, boolean coreType) {
-		switch (featureID) {
-			case MicroserviceDSLPackage.ROUTE_CONFIG__PATH:
-				return getPath();
-			case MicroserviceDSLPackage.ROUTE_CONFIG__SERVICE:
-				if (resolve) return getService();
-				return basicGetService();
-		}
-		return super.eGet(featureID, resolve, coreType);
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public Object eGet(int featureID, boolean resolve, boolean coreType)
+  {
+    switch (featureID)
+    {
+      case MicroserviceDSLPackage.ROUTE_CONFIG__PATH:
+        return getPath();
+      case MicroserviceDSLPackage.ROUTE_CONFIG__SERVICE:
+        if (resolve) return getService();
+        return basicGetService();
+    }
+    return super.eGet(featureID, resolve, coreType);
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public void eSet(int featureID, Object newValue) {
-		switch (featureID) {
-			case MicroserviceDSLPackage.ROUTE_CONFIG__PATH:
-				setPath((String)newValue);
-				return;
-			case MicroserviceDSLPackage.ROUTE_CONFIG__SERVICE:
-				setService((Service)newValue);
-				return;
-		}
-		super.eSet(featureID, newValue);
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public void eSet(int featureID, Object newValue)
+  {
+    switch (featureID)
+    {
+      case MicroserviceDSLPackage.ROUTE_CONFIG__PATH:
+        setPath((String)newValue);
+        return;
+      case MicroserviceDSLPackage.ROUTE_CONFIG__SERVICE:
+        setService((Service)newValue);
+        return;
+    }
+    super.eSet(featureID, newValue);
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public void eUnset(int featureID) {
-		switch (featureID) {
-			case MicroserviceDSLPackage.ROUTE_CONFIG__PATH:
-				setPath(PATH_EDEFAULT);
-				return;
-			case MicroserviceDSLPackage.ROUTE_CONFIG__SERVICE:
-				setService((Service)null);
-				return;
-		}
-		super.eUnset(featureID);
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public void eUnset(int featureID)
+  {
+    switch (featureID)
+    {
+      case MicroserviceDSLPackage.ROUTE_CONFIG__PATH:
+        setPath(PATH_EDEFAULT);
+        return;
+      case MicroserviceDSLPackage.ROUTE_CONFIG__SERVICE:
+        setService((Service)null);
+        return;
+    }
+    super.eUnset(featureID);
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public boolean eIsSet(int featureID) {
-		switch (featureID) {
-			case MicroserviceDSLPackage.ROUTE_CONFIG__PATH:
-				return PATH_EDEFAULT == null ? path != null : !PATH_EDEFAULT.equals(path);
-			case MicroserviceDSLPackage.ROUTE_CONFIG__SERVICE:
-				return service != null;
-		}
-		return super.eIsSet(featureID);
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public boolean eIsSet(int featureID)
+  {
+    switch (featureID)
+    {
+      case MicroserviceDSLPackage.ROUTE_CONFIG__PATH:
+        return PATH_EDEFAULT == null ? path != null : !PATH_EDEFAULT.equals(path);
+      case MicroserviceDSLPackage.ROUTE_CONFIG__SERVICE:
+        return service != null;
+    }
+    return super.eIsSet(featureID);
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public String toString() {
-		if (eIsProxy()) return super.toString();
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public String toString()
+  {
+    if (eIsProxy()) return super.toString();
 
-		StringBuilder result = new StringBuilder(super.toString());
-		result.append(" (path: ");
-		result.append(path);
-		result.append(')');
-		return result.toString();
-	}
+    StringBuilder result = new StringBuilder(super.toString());
+    result.append(" (path: ");
+    result.append(path);
+    result.append(')');
+    return result.toString();
+  }
 
 } //RouteConfigImpl

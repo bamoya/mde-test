@@ -36,288 +36,308 @@ import org.eclipse.emf.ecore.util.EDataTypeEList;
  *
  * @generated
  */
-public class DiscoveryImpl extends MinimalEObjectImpl.Container implements Discovery {
-	/**
-	 * The default value of the '{@link #getName() <em>Name</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getName()
-	 * @generated
-	 * @ordered
-	 */
-	protected static final String NAME_EDEFAULT = null;
+public class DiscoveryImpl extends MinimalEObjectImpl.Container implements Discovery
+{
+  /**
+   * The default value of the '{@link #getName() <em>Name</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getName()
+   * @generated
+   * @ordered
+   */
+  protected static final String NAME_EDEFAULT = null;
 
-	/**
-	 * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getName()
-	 * @generated
-	 * @ordered
-	 */
-	protected String name = NAME_EDEFAULT;
+  /**
+   * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getName()
+   * @generated
+   * @ordered
+   */
+  protected String name = NAME_EDEFAULT;
 
-	/**
-	 * The default value of the '{@link #getPort() <em>Port</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getPort()
-	 * @generated
-	 * @ordered
-	 */
-	protected static final int PORT_EDEFAULT = 0;
+  /**
+   * The default value of the '{@link #getPort() <em>Port</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getPort()
+   * @generated
+   * @ordered
+   */
+  protected static final int PORT_EDEFAULT = 0;
 
-	/**
-	 * The cached value of the '{@link #getPort() <em>Port</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getPort()
-	 * @generated
-	 * @ordered
-	 */
-	protected int port = PORT_EDEFAULT;
+  /**
+   * The cached value of the '{@link #getPort() <em>Port</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getPort()
+   * @generated
+   * @ordered
+   */
+  protected int port = PORT_EDEFAULT;
 
-	/**
-	 * The default value of the '{@link #getDefaultZone() <em>Default Zone</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getDefaultZone()
-	 * @generated
-	 * @ordered
-	 */
-	protected static final String DEFAULT_ZONE_EDEFAULT = null;
+  /**
+   * The default value of the '{@link #getDefaultZone() <em>Default Zone</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getDefaultZone()
+   * @generated
+   * @ordered
+   */
+  protected static final String DEFAULT_ZONE_EDEFAULT = null;
 
-	/**
-	 * The cached value of the '{@link #getDefaultZone() <em>Default Zone</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getDefaultZone()
-	 * @generated
-	 * @ordered
-	 */
-	protected String defaultZone = DEFAULT_ZONE_EDEFAULT;
+  /**
+   * The cached value of the '{@link #getDefaultZone() <em>Default Zone</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getDefaultZone()
+   * @generated
+   * @ordered
+   */
+  protected String defaultZone = DEFAULT_ZONE_EDEFAULT;
 
-	/**
-	 * The cached value of the '{@link #getCustomDeps() <em>Custom Deps</em>}' attribute list.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getCustomDeps()
-	 * @generated
-	 * @ordered
-	 */
-	protected EList<Dependency> customDeps;
+  /**
+   * The cached value of the '{@link #getCustomDeps() <em>Custom Deps</em>}' attribute list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getCustomDeps()
+   * @generated
+   * @ordered
+   */
+  protected EList<Dependency> customDeps;
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected DiscoveryImpl() {
-		super();
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  protected DiscoveryImpl()
+  {
+    super();
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return MicroserviceDSLPackage.Literals.DISCOVERY;
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  protected EClass eStaticClass()
+  {
+    return MicroserviceDSLPackage.Literals.DISCOVERY;
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public String getName() {
-		return name;
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public String getName()
+  {
+    return name;
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public void setName(String newName) {
-		String oldName = name;
-		name = newName;
-		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, MicroserviceDSLPackage.DISCOVERY__NAME, oldName, name));
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public void setName(String newName)
+  {
+    String oldName = name;
+    name = newName;
+    if (eNotificationRequired())
+      eNotify(new ENotificationImpl(this, Notification.SET, MicroserviceDSLPackage.DISCOVERY__NAME, oldName, name));
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public int getPort() {
-		return port;
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public int getPort()
+  {
+    return port;
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public void setPort(int newPort) {
-		int oldPort = port;
-		port = newPort;
-		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, MicroserviceDSLPackage.DISCOVERY__PORT, oldPort, port));
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public void setPort(int newPort)
+  {
+    int oldPort = port;
+    port = newPort;
+    if (eNotificationRequired())
+      eNotify(new ENotificationImpl(this, Notification.SET, MicroserviceDSLPackage.DISCOVERY__PORT, oldPort, port));
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public String getDefaultZone() {
-		return defaultZone;
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public String getDefaultZone()
+  {
+    return defaultZone;
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public void setDefaultZone(String newDefaultZone) {
-		String oldDefaultZone = defaultZone;
-		defaultZone = newDefaultZone;
-		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, MicroserviceDSLPackage.DISCOVERY__DEFAULT_ZONE, oldDefaultZone, defaultZone));
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public void setDefaultZone(String newDefaultZone)
+  {
+    String oldDefaultZone = defaultZone;
+    defaultZone = newDefaultZone;
+    if (eNotificationRequired())
+      eNotify(new ENotificationImpl(this, Notification.SET, MicroserviceDSLPackage.DISCOVERY__DEFAULT_ZONE, oldDefaultZone, defaultZone));
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public EList<Dependency> getCustomDeps() {
-		if (customDeps == null) {
-			customDeps = new EDataTypeEList<Dependency>(Dependency.class, this, MicroserviceDSLPackage.DISCOVERY__CUSTOM_DEPS);
-		}
-		return customDeps;
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public EList<Dependency> getCustomDeps()
+  {
+    if (customDeps == null)
+    {
+      customDeps = new EDataTypeEList<Dependency>(Dependency.class, this, MicroserviceDSLPackage.DISCOVERY__CUSTOM_DEPS);
+    }
+    return customDeps;
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Object eGet(int featureID, boolean resolve, boolean coreType) {
-		switch (featureID) {
-			case MicroserviceDSLPackage.DISCOVERY__NAME:
-				return getName();
-			case MicroserviceDSLPackage.DISCOVERY__PORT:
-				return getPort();
-			case MicroserviceDSLPackage.DISCOVERY__DEFAULT_ZONE:
-				return getDefaultZone();
-			case MicroserviceDSLPackage.DISCOVERY__CUSTOM_DEPS:
-				return getCustomDeps();
-		}
-		return super.eGet(featureID, resolve, coreType);
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public Object eGet(int featureID, boolean resolve, boolean coreType)
+  {
+    switch (featureID)
+    {
+      case MicroserviceDSLPackage.DISCOVERY__NAME:
+        return getName();
+      case MicroserviceDSLPackage.DISCOVERY__PORT:
+        return getPort();
+      case MicroserviceDSLPackage.DISCOVERY__DEFAULT_ZONE:
+        return getDefaultZone();
+      case MicroserviceDSLPackage.DISCOVERY__CUSTOM_DEPS:
+        return getCustomDeps();
+    }
+    return super.eGet(featureID, resolve, coreType);
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	@Override
-	public void eSet(int featureID, Object newValue) {
-		switch (featureID) {
-			case MicroserviceDSLPackage.DISCOVERY__NAME:
-				setName((String)newValue);
-				return;
-			case MicroserviceDSLPackage.DISCOVERY__PORT:
-				setPort((Integer)newValue);
-				return;
-			case MicroserviceDSLPackage.DISCOVERY__DEFAULT_ZONE:
-				setDefaultZone((String)newValue);
-				return;
-			case MicroserviceDSLPackage.DISCOVERY__CUSTOM_DEPS:
-				getCustomDeps().clear();
-				getCustomDeps().addAll((Collection<? extends Dependency>)newValue);
-				return;
-		}
-		super.eSet(featureID, newValue);
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @SuppressWarnings("unchecked")
+  @Override
+  public void eSet(int featureID, Object newValue)
+  {
+    switch (featureID)
+    {
+      case MicroserviceDSLPackage.DISCOVERY__NAME:
+        setName((String)newValue);
+        return;
+      case MicroserviceDSLPackage.DISCOVERY__PORT:
+        setPort((Integer)newValue);
+        return;
+      case MicroserviceDSLPackage.DISCOVERY__DEFAULT_ZONE:
+        setDefaultZone((String)newValue);
+        return;
+      case MicroserviceDSLPackage.DISCOVERY__CUSTOM_DEPS:
+        getCustomDeps().clear();
+        getCustomDeps().addAll((Collection<? extends Dependency>)newValue);
+        return;
+    }
+    super.eSet(featureID, newValue);
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public void eUnset(int featureID) {
-		switch (featureID) {
-			case MicroserviceDSLPackage.DISCOVERY__NAME:
-				setName(NAME_EDEFAULT);
-				return;
-			case MicroserviceDSLPackage.DISCOVERY__PORT:
-				setPort(PORT_EDEFAULT);
-				return;
-			case MicroserviceDSLPackage.DISCOVERY__DEFAULT_ZONE:
-				setDefaultZone(DEFAULT_ZONE_EDEFAULT);
-				return;
-			case MicroserviceDSLPackage.DISCOVERY__CUSTOM_DEPS:
-				getCustomDeps().clear();
-				return;
-		}
-		super.eUnset(featureID);
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public void eUnset(int featureID)
+  {
+    switch (featureID)
+    {
+      case MicroserviceDSLPackage.DISCOVERY__NAME:
+        setName(NAME_EDEFAULT);
+        return;
+      case MicroserviceDSLPackage.DISCOVERY__PORT:
+        setPort(PORT_EDEFAULT);
+        return;
+      case MicroserviceDSLPackage.DISCOVERY__DEFAULT_ZONE:
+        setDefaultZone(DEFAULT_ZONE_EDEFAULT);
+        return;
+      case MicroserviceDSLPackage.DISCOVERY__CUSTOM_DEPS:
+        getCustomDeps().clear();
+        return;
+    }
+    super.eUnset(featureID);
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public boolean eIsSet(int featureID) {
-		switch (featureID) {
-			case MicroserviceDSLPackage.DISCOVERY__NAME:
-				return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
-			case MicroserviceDSLPackage.DISCOVERY__PORT:
-				return port != PORT_EDEFAULT;
-			case MicroserviceDSLPackage.DISCOVERY__DEFAULT_ZONE:
-				return DEFAULT_ZONE_EDEFAULT == null ? defaultZone != null : !DEFAULT_ZONE_EDEFAULT.equals(defaultZone);
-			case MicroserviceDSLPackage.DISCOVERY__CUSTOM_DEPS:
-				return customDeps != null && !customDeps.isEmpty();
-		}
-		return super.eIsSet(featureID);
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public boolean eIsSet(int featureID)
+  {
+    switch (featureID)
+    {
+      case MicroserviceDSLPackage.DISCOVERY__NAME:
+        return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
+      case MicroserviceDSLPackage.DISCOVERY__PORT:
+        return port != PORT_EDEFAULT;
+      case MicroserviceDSLPackage.DISCOVERY__DEFAULT_ZONE:
+        return DEFAULT_ZONE_EDEFAULT == null ? defaultZone != null : !DEFAULT_ZONE_EDEFAULT.equals(defaultZone);
+      case MicroserviceDSLPackage.DISCOVERY__CUSTOM_DEPS:
+        return customDeps != null && !customDeps.isEmpty();
+    }
+    return super.eIsSet(featureID);
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public String toString() {
-		if (eIsProxy()) return super.toString();
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public String toString()
+  {
+    if (eIsProxy()) return super.toString();
 
-		StringBuilder result = new StringBuilder(super.toString());
-		result.append(" (name: ");
-		result.append(name);
-		result.append(", port: ");
-		result.append(port);
-		result.append(", defaultZone: ");
-		result.append(defaultZone);
-		result.append(", customDeps: ");
-		result.append(customDeps);
-		result.append(')');
-		return result.toString();
-	}
+    StringBuilder result = new StringBuilder(super.toString());
+    result.append(" (name: ");
+    result.append(name);
+    result.append(", port: ");
+    result.append(port);
+    result.append(", defaultZone: ");
+    result.append(defaultZone);
+    result.append(", customDeps: ");
+    result.append(customDeps);
+    result.append(')');
+    return result.toString();
+  }
 
 } //DiscoveryImpl

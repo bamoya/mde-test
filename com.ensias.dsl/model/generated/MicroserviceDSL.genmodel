@@ -13,7 +13,6 @@
       <genEnumLiterals ecoreEnumLiteral="MicroserviceDSL.ecore#//Dependency/CONFIG_CLIENT"/>
       <genEnumLiterals ecoreEnumLiteral="MicroserviceDSL.ecore#//Dependency/ACTUATOR"/>
       <genEnumLiterals ecoreEnumLiteral="MicroserviceDSL.ecore#//Dependency/LOMBOK"/>
-      <genEnumLiterals ecoreEnumLiteral="MicroserviceDSL.ecore#//Dependency/CUSTOM"/>
     </genEnums>
     <genEnums typeSafeEnumCompatible="false" ecoreEnum="MicroserviceDSL.ecore#//DatabaseDriver">
       <genEnumLiterals ecoreEnumLiteral="MicroserviceDSL.ecore#//DatabaseDriver/MYSQL"/>

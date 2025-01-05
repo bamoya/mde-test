@@ -17,24 +17,27 @@ import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
  *
  * @generated
  */
-public class ServiceConfigEntryImpl extends MinimalEObjectImpl.Container implements ServiceConfigEntry {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ServiceConfigEntryImpl() {
-		super();
-	}
+public class ServiceConfigEntryImpl extends MinimalEObjectImpl.Container implements ServiceConfigEntry
+{
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  protected ServiceConfigEntryImpl()
+  {
+    super();
+  }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return MicroserviceDSLPackage.Literals.SERVICE_CONFIG_ENTRY;
-	}
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  protected EClass eStaticClass()
+  {
+    return MicroserviceDSLPackage.Literals.SERVICE_CONFIG_ENTRY;
+  }
 
 } //ServiceConfigEntryImpl

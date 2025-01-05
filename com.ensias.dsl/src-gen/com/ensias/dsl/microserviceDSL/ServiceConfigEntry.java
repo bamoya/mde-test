@@ -15,5 +15,6 @@ import org.eclipse.emf.ecore.EObject;
  * @model
  * @generated
  */
-public interface ServiceConfigEntry extends EObject {
+public interface ServiceConfigEntry extends EObject
+{
 } // ServiceConfigEntry

@@ -1440,14 +1440,6 @@ ruleDependency returns [Enumerator current=null]
 				newLeafNode(enumLiteral_5, grammarAccess.getDependencyAccess().getLOMBOKEnumLiteralDeclaration_5());
 			}
 		)
-		    |
-		(
-			enumLiteral_6='CUSTOM'
-			{
-				$current = grammarAccess.getDependencyAccess().getCUSTOMEnumLiteralDeclaration_6().getEnumLiteral().getInstance();
-				newLeafNode(enumLiteral_6, grammarAccess.getDependencyAccess().getCUSTOMEnumLiteralDeclaration_6());
-			}
-		)
 	)
 ;
 

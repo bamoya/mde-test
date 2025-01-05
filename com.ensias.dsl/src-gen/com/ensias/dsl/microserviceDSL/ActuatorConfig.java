@@ -22,71 +22,72 @@ package com.ensias.dsl.microserviceDSL;
  * @model
  * @generated
  */
-public interface ActuatorConfig extends ServiceConfigEntry {
-	/**
-	 * Returns the value of the '<em><b>Healthcheck Path</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Healthcheck Path</em>' attribute.
-	 * @see #setHealthcheckPath(String)
-	 * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getActuatorConfig_HealthcheckPath()
-	 * @model unique="false"
-	 * @generated
-	 */
-	String getHealthcheckPath();
+public interface ActuatorConfig extends ServiceConfigEntry
+{
+  /**
+   * Returns the value of the '<em><b>Healthcheck Path</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Healthcheck Path</em>' attribute.
+   * @see #setHealthcheckPath(String)
+   * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getActuatorConfig_HealthcheckPath()
+   * @model
+   * @generated
+   */
+  String getHealthcheckPath();
 
-	/**
-	 * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.ActuatorConfig#getHealthcheckPath <em>Healthcheck Path</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Healthcheck Path</em>' attribute.
-	 * @see #getHealthcheckPath()
-	 * @generated
-	 */
-	void setHealthcheckPath(String value);
+  /**
+   * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.ActuatorConfig#getHealthcheckPath <em>Healthcheck Path</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @param value the new value of the '<em>Healthcheck Path</em>' attribute.
+   * @see #getHealthcheckPath()
+   * @generated
+   */
+  void setHealthcheckPath(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Metrics Enabled</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Metrics Enabled</em>' attribute.
-	 * @see #setMetricsEnabled(String)
-	 * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getActuatorConfig_MetricsEnabled()
-	 * @model unique="false"
-	 * @generated
-	 */
-	String getMetricsEnabled();
+  /**
+   * Returns the value of the '<em><b>Metrics Enabled</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Metrics Enabled</em>' attribute.
+   * @see #setMetricsEnabled(String)
+   * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getActuatorConfig_MetricsEnabled()
+   * @model
+   * @generated
+   */
+  String getMetricsEnabled();
 
-	/**
-	 * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.ActuatorConfig#getMetricsEnabled <em>Metrics Enabled</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Metrics Enabled</em>' attribute.
-	 * @see #getMetricsEnabled()
-	 * @generated
-	 */
-	void setMetricsEnabled(String value);
+  /**
+   * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.ActuatorConfig#getMetricsEnabled <em>Metrics Enabled</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @param value the new value of the '<em>Metrics Enabled</em>' attribute.
+   * @see #getMetricsEnabled()
+   * @generated
+   */
+  void setMetricsEnabled(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Info Enabled</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Info Enabled</em>' attribute.
-	 * @see #setInfoEnabled(String)
-	 * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getActuatorConfig_InfoEnabled()
-	 * @model unique="false"
-	 * @generated
-	 */
-	String getInfoEnabled();
+  /**
+   * Returns the value of the '<em><b>Info Enabled</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Info Enabled</em>' attribute.
+   * @see #setInfoEnabled(String)
+   * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getActuatorConfig_InfoEnabled()
+   * @model
+   * @generated
+   */
+  String getInfoEnabled();
 
-	/**
-	 * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.ActuatorConfig#getInfoEnabled <em>Info Enabled</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Info Enabled</em>' attribute.
-	 * @see #getInfoEnabled()
-	 * @generated
-	 */
-	void setInfoEnabled(String value);
+  /**
+   * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.ActuatorConfig#getInfoEnabled <em>Info Enabled</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @param value the new value of the '<em>Info Enabled</em>' attribute.
+   * @see #getInfoEnabled()
+   * @generated
+   */
+  void setInfoEnabled(String value);
 
 } // ActuatorConfig

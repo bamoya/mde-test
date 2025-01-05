@@ -26,75 +26,76 @@ import org.eclipse.emf.ecore.EObject;
  * @model
  * @generated
  */
-public interface Gateway extends EObject {
-	/**
-	 * Returns the value of the '<em><b>Name</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Name</em>' attribute.
-	 * @see #setName(String)
-	 * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getGateway_Name()
-	 * @model unique="false"
-	 * @generated
-	 */
-	String getName();
+public interface Gateway extends EObject
+{
+  /**
+   * Returns the value of the '<em><b>Name</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Name</em>' attribute.
+   * @see #setName(String)
+   * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getGateway_Name()
+   * @model
+   * @generated
+   */
+  String getName();
 
-	/**
-	 * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.Gateway#getName <em>Name</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Name</em>' attribute.
-	 * @see #getName()
-	 * @generated
-	 */
-	void setName(String value);
+  /**
+   * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.Gateway#getName <em>Name</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @param value the new value of the '<em>Name</em>' attribute.
+   * @see #getName()
+   * @generated
+   */
+  void setName(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Port</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Port</em>' attribute.
-	 * @see #setPort(int)
-	 * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getGateway_Port()
-	 * @model unique="false"
-	 * @generated
-	 */
-	int getPort();
+  /**
+   * Returns the value of the '<em><b>Port</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Port</em>' attribute.
+   * @see #setPort(int)
+   * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getGateway_Port()
+   * @model
+   * @generated
+   */
+  int getPort();
 
-	/**
-	 * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.Gateway#getPort <em>Port</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Port</em>' attribute.
-	 * @see #getPort()
-	 * @generated
-	 */
-	void setPort(int value);
+  /**
+   * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.Gateway#getPort <em>Port</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @param value the new value of the '<em>Port</em>' attribute.
+   * @see #getPort()
+   * @generated
+   */
+  void setPort(int value);
 
-	/**
-	 * Returns the value of the '<em><b>Routes</b></em>' containment reference list.
-	 * The list contents are of type {@link com.ensias.dsl.microserviceDSL.RouteConfig}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Routes</em>' containment reference list.
-	 * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getGateway_Routes()
-	 * @model containment="true"
-	 * @generated
-	 */
-	EList<RouteConfig> getRoutes();
+  /**
+   * Returns the value of the '<em><b>Routes</b></em>' containment reference list.
+   * The list contents are of type {@link com.ensias.dsl.microserviceDSL.RouteConfig}.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Routes</em>' containment reference list.
+   * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getGateway_Routes()
+   * @model containment="true"
+   * @generated
+   */
+  EList<RouteConfig> getRoutes();
 
-	/**
-	 * Returns the value of the '<em><b>Custom Deps</b></em>' attribute list.
-	 * The list contents are of type {@link com.ensias.dsl.microserviceDSL.Dependency}.
-	 * The literals are from the enumeration {@link com.ensias.dsl.microserviceDSL.Dependency}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Custom Deps</em>' attribute list.
-	 * @see com.ensias.dsl.microserviceDSL.Dependency
-	 * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getGateway_CustomDeps()
-	 * @model unique="false"
-	 * @generated
-	 */
-	EList<Dependency> getCustomDeps();
+  /**
+   * Returns the value of the '<em><b>Custom Deps</b></em>' attribute list.
+   * The list contents are of type {@link com.ensias.dsl.microserviceDSL.Dependency}.
+   * The literals are from the enumeration {@link com.ensias.dsl.microserviceDSL.Dependency}.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Custom Deps</em>' attribute list.
+   * @see com.ensias.dsl.microserviceDSL.Dependency
+   * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getGateway_CustomDeps()
+   * @model unique="false"
+   * @generated
+   */
+  EList<Dependency> getCustomDeps();
 
 } // Gateway

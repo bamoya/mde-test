@@ -25,53 +25,54 @@ import org.eclipse.emf.ecore.EObject;
  * @model
  * @generated
  */
-public interface Service extends EObject {
-	/**
-	 * Returns the value of the '<em><b>Name</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Name</em>' attribute.
-	 * @see #setName(String)
-	 * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getService_Name()
-	 * @model unique="false"
-	 * @generated
-	 */
-	String getName();
+public interface Service extends EObject
+{
+  /**
+   * Returns the value of the '<em><b>Name</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Name</em>' attribute.
+   * @see #setName(String)
+   * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getService_Name()
+   * @model
+   * @generated
+   */
+  String getName();
 
-	/**
-	 * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.Service#getName <em>Name</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Name</em>' attribute.
-	 * @see #getName()
-	 * @generated
-	 */
-	void setName(String value);
+  /**
+   * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.Service#getName <em>Name</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @param value the new value of the '<em>Name</em>' attribute.
+   * @see #getName()
+   * @generated
+   */
+  void setName(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Dependencies</b></em>' attribute list.
-	 * The list contents are of type {@link com.ensias.dsl.microserviceDSL.Dependency}.
-	 * The literals are from the enumeration {@link com.ensias.dsl.microserviceDSL.Dependency}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Dependencies</em>' attribute list.
-	 * @see com.ensias.dsl.microserviceDSL.Dependency
-	 * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getService_Dependencies()
-	 * @model unique="false"
-	 * @generated
-	 */
-	EList<Dependency> getDependencies();
+  /**
+   * Returns the value of the '<em><b>Dependencies</b></em>' attribute list.
+   * The list contents are of type {@link com.ensias.dsl.microserviceDSL.Dependency}.
+   * The literals are from the enumeration {@link com.ensias.dsl.microserviceDSL.Dependency}.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Dependencies</em>' attribute list.
+   * @see com.ensias.dsl.microserviceDSL.Dependency
+   * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getService_Dependencies()
+   * @model unique="false"
+   * @generated
+   */
+  EList<Dependency> getDependencies();
 
-	/**
-	 * Returns the value of the '<em><b>Configuration</b></em>' containment reference list.
-	 * The list contents are of type {@link com.ensias.dsl.microserviceDSL.ServiceConfigEntry}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Configuration</em>' containment reference list.
-	 * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getService_Configuration()
-	 * @model containment="true"
-	 * @generated
-	 */
-	EList<ServiceConfigEntry> getConfiguration();
+  /**
+   * Returns the value of the '<em><b>Configuration</b></em>' containment reference list.
+   * The list contents are of type {@link com.ensias.dsl.microserviceDSL.ServiceConfigEntry}.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Configuration</em>' containment reference list.
+   * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getService_Configuration()
+   * @model containment="true"
+   * @generated
+   */
+  EList<ServiceConfigEntry> getConfiguration();
 
 } // Service

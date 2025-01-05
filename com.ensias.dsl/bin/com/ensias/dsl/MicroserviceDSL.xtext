@@ -83,7 +83,7 @@ ActuatorConfig:
 
 
 enum Dependency:
-    JPA | SPRING_WEB | EUREKA_CLIENT | CONFIG_CLIENT | ACTUATOR | LOMBOK | CUSTOM;
+    JPA | SPRING_WEB | EUREKA_CLIENT | CONFIG_CLIENT | ACTUATOR | LOMBOK ;
 
 enum DatabaseDriver:
     MYSQL | POSTGRESQL | H2;

@@ -22,49 +22,50 @@ import org.eclipse.emf.ecore.EObject;
  * @model
  * @generated
  */
-public interface RouteConfig extends EObject {
-	/**
-	 * Returns the value of the '<em><b>Path</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Path</em>' attribute.
-	 * @see #setPath(String)
-	 * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getRouteConfig_Path()
-	 * @model unique="false"
-	 * @generated
-	 */
-	String getPath();
+public interface RouteConfig extends EObject
+{
+  /**
+   * Returns the value of the '<em><b>Path</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Path</em>' attribute.
+   * @see #setPath(String)
+   * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getRouteConfig_Path()
+   * @model
+   * @generated
+   */
+  String getPath();
 
-	/**
-	 * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.RouteConfig#getPath <em>Path</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Path</em>' attribute.
-	 * @see #getPath()
-	 * @generated
-	 */
-	void setPath(String value);
+  /**
+   * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.RouteConfig#getPath <em>Path</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @param value the new value of the '<em>Path</em>' attribute.
+   * @see #getPath()
+   * @generated
+   */
+  void setPath(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Service</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Service</em>' reference.
-	 * @see #setService(Service)
-	 * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getRouteConfig_Service()
-	 * @model
-	 * @generated
-	 */
-	Service getService();
+  /**
+   * Returns the value of the '<em><b>Service</b></em>' reference.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Service</em>' reference.
+   * @see #setService(Service)
+   * @see com.ensias.dsl.microserviceDSL.MicroserviceDSLPackage#getRouteConfig_Service()
+   * @model
+   * @generated
+   */
+  Service getService();
 
-	/**
-	 * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.RouteConfig#getService <em>Service</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Service</em>' reference.
-	 * @see #getService()
-	 * @generated
-	 */
-	void setService(Service value);
+  /**
+   * Sets the value of the '{@link com.ensias.dsl.microserviceDSL.RouteConfig#getService <em>Service</em>}' reference.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @param value the new value of the '<em>Service</em>' reference.
+   * @see #getService()
+   * @generated
+   */
+  void setService(Service value);
 
 } // RouteConfig

@@ -528,12 +528,6 @@ rule__Dependency__Alternatives
 		('LOMBOK')
 		{ after(grammarAccess.getDependencyAccess().getLOMBOKEnumLiteralDeclaration_5()); }
 	)
-	|
-	(
-		{ before(grammarAccess.getDependencyAccess().getCUSTOMEnumLiteralDeclaration_6()); }
-		('CUSTOM')
-		{ after(grammarAccess.getDependencyAccess().getCUSTOMEnumLiteralDeclaration_6()); }
-	)
 ;
 finally {
 	restoreStackSize(stackSize);
