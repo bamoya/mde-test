@@ -348,6 +348,9 @@ public class MicroserviceDSLGenerator extends AbstractGenerator {
         generateServiceMainClass(service, model, basePackagePath, servicePath, fsa);
     }
     
+    
+    
+    // ------------------------------------- Helper Functions --------------------------------------------
     // Todo Hajara & Fatiha
     private void generateServicePom(Service service, Model model, String servicePath, IFileSystemAccess2 fsa) {
         StringBuilder pomContent = new StringBuilder();
@@ -645,7 +648,7 @@ public class MicroserviceDSLGenerator extends AbstractGenerator {
     }
 
     // Helper methods for database configuration
-    // to-do hajar & fatiha
+    // to-do nour
     private String getDriverClassName(DatabaseDriver driver) {
         switch (driver) {
             case MYSQL:
@@ -659,7 +662,7 @@ public class MicroserviceDSLGenerator extends AbstractGenerator {
         }
     }
 
-    // to-do hajar & fatiha
+    // to-do nour
     private String getDdlMode(DdlType ddl) {
         switch (ddl) {
             case CREATE:
@@ -670,7 +673,6 @@ public class MicroserviceDSLGenerator extends AbstractGenerator {
                 return "none";
         }
     }
-    
     
     
     // Helper method to add dependencies to pom.xml
